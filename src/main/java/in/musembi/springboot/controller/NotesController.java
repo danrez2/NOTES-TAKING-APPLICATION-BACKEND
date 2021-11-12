@@ -19,7 +19,7 @@ import in.musembi.springboot.repository.NotesRepository;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins="http://localhost:8080/api")
+@CrossOrigin("*")
 public class NotesController {
 	
 	
